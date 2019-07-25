@@ -1,0 +1,153 @@
+html {
+    color: pink;
+}
+
+.centralizar {
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#nav ul li {
+    float: left;
+    font: 16px Berlin Sans FB
+}
+
+body {
+    background: url(../Images/background.jpg);
+}
+
+#nav {
+    width: 348px;
+    background: #ff69b4;
+    margin: 50px;
+    float: left;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+
+#nav ul li {
+    float: left;
+    font: 16px Berlin Sans FB;
+    border-right: 1px solid #000000
+}
+
+#nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+#nav ul li:hover {
+    box-shadow: 0px 10px 10px #ff69b4
+}
+
+#nav ul li .index {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+}
+
+#nav ul li .receita {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+}
+
+#nav ul li .video {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+}
+
+#nav ul li .contato {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    margin-bottom: 15px;
+}
+
+#Texto {
+    float: left;
+}
+
+form {
+    width: 400px;
+    height: 280px;
+    border: 3px solid;
+    object-position: center;
+    border-radius: 10%;
+    background-color: rgb(0, 0, 0);
+}
+
+input[type=text],
+input[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+    position: relative;
+    left: 25%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+#foi {
+    opacity: 0.78;
+    filter: alpha(opacity=50);
+}
+
+.receitaContato {
+    width: 260px;
+    height: 100px;
+}
+
+#labelTextBox {
+    float: left;
+    margin-left: 10px;
+}
+
+main {
+    background: #00000099;
+    padding: 5px 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
